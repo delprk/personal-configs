@@ -7,8 +7,6 @@ xmonad.hs -- main script/config file for xmonad -- put in ~/.xmonad/xmonad.hs
 # startup
 lightdm.conf -- main config file for lightdm -- put in /etc/lightdm/lightdm.conf
 
-main.sh -- xrandr config file for monitors -- put in ~/.screenlayout/main.sh
-
 xprofile -- startup file -- put in ~/.xprofile
 
 # kitty
