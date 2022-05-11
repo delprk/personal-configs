@@ -1,8 +1,8 @@
-# Keyboard layout
+# set keyboard layout
 setxkbmap us &
 
-# Wallpaper
+# set/restore wallpaper
 nitrogen --restore & 
 
-# Compositor
+# run compositor
 picom -f  &
