@@ -120,25 +120,6 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
 
 ------------------------------------------------------------------------
--- mouse bindings: default actions bound to mouse events
---
---myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
-
-    -- mod-button1, set the window to floating mode and move by dragging
-    --[ ((modm, button1), (\w -> focus w >> mouseMoveWindow w
-                                      -- >> windows W.shiftMaster))
-
-    -- mod-button2, raise the window to the top of the stack
-    --, ((modm, button2), (\w -> focus w >> windows W.shiftMaster))
-
-    -- mod-button3, set the window to floating mode and resize by dragging
-    --, ((modm, button3), (\w -> focus w >> mouseResizeWindow w
-                                      -- >> windows W.shiftMaster))
-
-    -- you may also bind events to the mouse scroll wheel (button4 and button5)
-    --]
-
-------------------------------------------------------------------------
 -- set layouts:
 myLayout = tiled ||| Mirror tiled ||| Full
   where
